@@ -29,7 +29,7 @@ struct _XBl1032Mg: View {
             }
             Spacer()
             Button(_xgb2129 == nil ? "Pour something random" : "Shake again") { Task { await _xbl2132() } }
-                .buttonStyle(_XLb1007Mg(fill: _XMb1004Lg._xbm2016))
+                .buttonStyle(_XLb1007Mg(_xmg2028: _XMb1004Lg._xbm2016))
                 .padding(.horizontal, 28).padding(.bottom, 36)
         }
         .sheet(item: $_xgm2131) { p in

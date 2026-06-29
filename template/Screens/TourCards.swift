@@ -5,14 +5,14 @@ struct _XLg1033Gb: View {
     @State private var _xlg2133 = 0
 
     private let _xmb2134: [_XMb1034Lg] = [
-        _XMb1034Lg(emoji: "🍸", tint: _XMb1004Lg._xgl2015, head: "Find any cocktail",
-                line: "Search thousands of recipes by name or by what's already on your shelf."),
-        _XMb1034Lg(emoji: "🎲", tint: _XMb1004Lg._xbm2016, head: "Feeling lucky?",
-                line: "Tap Surprise for a random pour when you can't decide what to mix."),
-        _XMb1034Lg(emoji: "🧉", tint: _XMb1004Lg._xlb2017, head: "Build your home bar",
-                line: "Save what you've shaken and what you still want to try — rate and tweak each one."),
-        _XMb1034Lg(emoji: "⭐️", tint: _XMb1004Lg._xgl2015, head: "Keep the classics close",
-                line: "Star your favourites so the go-to round is always one tap away.")
+        _XMb1034Lg(_xmg2138: "🍸", _xgb2139: _XMb1004Lg._xgl2015, _xlm2140: "Find any cocktail",
+                _xgm2141: "Search thousands of recipes by name or by what's already on your shelf."),
+        _XMb1034Lg(_xmg2138: "🎲", _xgb2139: _XMb1004Lg._xbm2016, _xlm2140: "Feeling lucky?",
+                _xgm2141: "Tap Surprise for a random pour when you can't decide what to mix."),
+        _XMb1034Lg(_xmg2138: "🧉", _xgb2139: _XMb1004Lg._xlb2017, _xlm2140: "Build your home bar",
+                _xgm2141: "Save what you've shaken and what you still want to try — rate and tweak each one."),
+        _XMb1034Lg(_xmg2138: "⭐️", _xgb2139: _XMb1004Lg._xgl2015, _xlm2140: "Keep the classics close",
+                _xgm2141: "Star your favourites so the go-to round is always one tap away.")
     ]
 
     var body: some View {
