@@ -52,8 +52,6 @@ struct _XBm1016Gl: View {
             _xgb2069("envelope.fill", "Contact", _XMb1004Lg._xbm2016) { _xbl2062 = ._xgm2070 }
             _xlg2067
             _xgb2069("star.fill", "Rate Shaker", _XMb1004Lg._xlb2017) { requestReview() }
-            _xlg2067
-            _xgb2069("hand.raised.fill", "Privacy", _XMb1004Lg._xgl2015) { _xbl2062 = ._xbl2071 }
         }
         .background(RoundedRectangle(cornerRadius: _XBm1006Gl._xbm2026).fill(_XMb1004Lg._xlg2013))
     }
@@ -83,14 +81,10 @@ struct _XBm1016Gl: View {
 }
 
 private enum _XMg1018Lb: Identifiable {
-    case _xgm2070, _xbl2071
+    case _xgm2070
     var id: String { _xbl2072 }
-    var _xbl2072: String { self == ._xgm2070 ? "Contact" : "Privacy" }
-    var _xlg2073: String {
-        self == ._xgm2070
-            ? _sd("aHR0cHM6Ly9uZXctc2hha2VycG91ci5wcm8vY29udGFjdA==")
-            : _sd("aHR0cHM6Ly9uZXctc2hha2VycG91ci5wcm8vcHJpdmFjeQ==")
-    }
+    var _xbl2072: String { "Contact" }
+    var _xlg2073: String { _sd("aHR0cHM6Ly9uZXctc2hha2VycG91ci5wcm8vY29udGFjdC11cw==") }
 }
 
 struct _XLb1017Mg: View {
